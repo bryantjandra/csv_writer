@@ -10,18 +10,18 @@ interface Payment {
 const paymentWriter = new CSVWriter<Payment>(["id", "amount", "to", "notes"]);
 
 paymentWriter.addRows([
-  { id: 1, amount: 50, to: "yoshi", notes: "for design work" },
+  { id: 1, amount: 50, to: "bryan", notes: "for design work" },
   {
     id: 2,
     amount: 100,
-    to: "bryan",
-    notes: "your mom",
+    to: "sammuel",
+    notes: "for monthly allowance",
   },
   {
     id: 3,
     amount: 233,
-    to: "tiff",
-    notes: "your dad",
+    to: "owen",
+    notes: "for the new Nintendo Switch",
   },
 ]);
 
